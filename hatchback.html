@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Car Rental Program</title>
+    <style>
+        body {
+            background-image: url("newback.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+		a{
+			text-decoration: none;
+			color: wheat;
+		}
+        #header {
+            width: 100%;
+            height: 150px;
+            background: transparent;
+            border: 2px pink;
+            font-size: 1.7em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        #header ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+        }
+        #header ul li {
+            font-weight: bold;
+        }
+        #container {
+            text-align: center;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 1000px;
+            color: white;
+        }
+        #container h2 {
+            color: wheat;
+        }
+        .car-item {
+            display: inline-block;
+            width: 200px;
+            margin: 20px;
+        }
+        .car-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .car-info {
+            margin-top: 10px;
+        }
+        #footer {
+            width: 100%;
+            background-color: rgba(245, 222, 179, 0.197);
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: auto;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Online Car Rental</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </div>
+    
+    <div id="container">
+        <h2>Hatchbacks Available</h2>
+        
+        <div class="car-item">
+            <img src="images/hatchbacks/swift.jpg" alt="Maruti Swift">
+            <div class="car-info">
+                <p><b>Maruti Swift</b></p>
+                <p>Fuel: Petrol</p>
+                <p>Engine: 1200 cc</p>
+            </div>
+        </div>
+        
+        <div class="car-item">  
+            <img src="images/hatchbacks/i10.jpg" alt="Honda i10">
+            <div class="car-info">
+                <p><b>Hyandai i10</b></p>
+                <p>Fuel: Petrol and LPG</p>
+                <p>Engine: 1100 cc</p>
+            </div>
+        </div>
+        
+        <div class="car-item">
+            <img src="images/hatchbacks/i20.jpg" alt="Hyandai i20 sports">
+            <div class="car-info">
+                <p><b>Hyandai i20 sports</b></p>
+                <p>Fuel: Petrol</p>
+                <p>Engine: 1200 cc</p>
+            </div>
+        </div>
+        
+        <div class="car-item">
+            <img src="images/hatchbacks/wagonr.jpg" alt="Maruti wagon r">
+            <div class="car-info">
+                <p><b>Maruti Wagon R</b></p>
+                <p>Fuel: Petrol and CNG</p>
+                <p>Engine: 1200 cc</p>
+            </div>
+        </div>
+        
+        <a href="home.html" class="button-container"><button>Home</button></a>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 Car Rental Program. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
